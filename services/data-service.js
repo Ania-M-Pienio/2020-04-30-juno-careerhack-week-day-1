@@ -1,4 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
+const infoSchema = require('./models/info.js');
 
 // A service that performs create/read/update/delete functions on data.
 module.exports = class DataService {
